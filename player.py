@@ -5,6 +5,7 @@ class Player:
     def __init__(self, name, index):
         self.name = name
         self.index = index
+        self.score = 0
         
         self.stats = {
             "damage": 0,
